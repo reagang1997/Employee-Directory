@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-function Search() {
+function Search({filter}) {
     return (
-        <input placeholder='Sterling Archer'></input>
+        <input onChange={filter} placeholder='Sterling Archer'></input>
     );
 }
 
