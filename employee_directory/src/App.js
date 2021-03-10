@@ -1,17 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Wrapper from './componets/Wrapper'
 import Header from './componets/Header'
+import Table from './componets/Table';
 import employees from './employees.json';
 
-function App() {
-  const [employees, setEmployees] = useState({ employees });
+class App extends React.Component {
+  state = {employees}
+  render(){
+  console.log(this.state.employees);
 
-  return (
-    <Wrapper>
-      <Header />
-      {/* <EmployeeList employees={employees} setEmployees={setEmployees} /> */}
-    </Wrapper>
-  );
+    return (
+      <Wrapper>
+        <Header />
+        <Table emps={this.state.employees}/>
+      </Wrapper>
+    );
+  }
+  
 
 
 }
