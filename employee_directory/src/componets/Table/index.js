@@ -6,9 +6,9 @@ function Table(props){
     return(
         <table className='table'>
             <tr>
-                <th className='pointer'>Name</th>
-                <th className='pointer'>Role</th>
-                <th className='pointer'>Age</th>
+                <th className='pointer' onClick={props.sort}>Name</th>
+                <th className='pointer' onClick={props.sort}>Role</th>
+                <th className='pointer' onClick={props.sort}>Age</th>
             </tr>
             {props.emps.map(emp => <Row
             name={emp.name}

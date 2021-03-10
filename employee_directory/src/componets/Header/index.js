@@ -5,7 +5,7 @@ import './style.css';
 function Header({filter}) {
     return (
         <div className='hero text-center'>
-            <h1>ISIS Agency</h1>
+            <h1>International Secret Intelligence Service</h1>
             <br/>
             <br/>
             <br/>
