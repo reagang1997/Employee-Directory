@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Sterling Archer",
+        "role": "ISIS Agent",
+        "age": 36
+    },
+    {
+        "id": 2,
+        "name": "Lana Kane",
+        "role": "ISIS Agent",
+        "age": 32
+    },
+    {
+        "id": 3,
+        "name": "Cheryl Tunt",
+        "role": "ISIS Secretary",
+        "age": 27
+    },
+    {
+        "id": 4,
+        "name": "Pamela Poovey",
+        "role": "ISIS H.R. Director",
+        "age": 38
+    },
+    {
+        "id": 5,
+        "name": "Algernop Krieger",
+        "role": "Head of ISIS Applied Research",
+        "age": 43
+    },
+    {
+        "id": 6,
+        "name": "Arthur Woodhouse",
+        "role": "ISIS Valet",
+        "age": 83
+    },
+    {
+        "id": 7,
+        "name": "Malory Archer",
+        "role": "Head of ISIS",
+        "age": 64
+    },
+    {
+        "id": 8,
+        "name": "Sterling Archer",
+        "role": "ISIS Agent",
+        "age": 36
+    }
+
+]
